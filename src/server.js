@@ -2,7 +2,7 @@ const express = require("express");
 
 const formidableMiddleware = require("express-formidable");
 
-const test = require("./routes/app.js");
+const test = require("../routes/app.js");
 
 const formidableOpts = {
     keepExtensions:true
